@@ -3,11 +3,21 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { UserComponent } from './shared/components/user/user.component';
+
+import { UserDirectiveDirective } from './shared/directive/user-directive.directive';
+
+
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UserComponent,
+    
+    UserDirectiveDirective,
+
+
   ],
   imports: [
     BrowserModule
